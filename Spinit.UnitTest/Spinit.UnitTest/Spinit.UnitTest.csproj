@@ -6,6 +6,9 @@
     <Authors>Spinit</Authors>
     <Company>Spinit</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/Spinit-AB/Spinit.UnitTest/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Spinit-AB/Spinit.UnitTest</PackageProjectUrl>
+    <Copyright>Spinit AB</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
