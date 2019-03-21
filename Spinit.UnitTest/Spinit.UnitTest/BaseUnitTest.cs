@@ -9,7 +9,8 @@ namespace Spinit.UnitTest
         public UnitTestFixture Fixture { get; private set; }
         public TSut SUT => Fixture.Create<TSut>();
 
-        public BaseUnitTest()
+        [SetUp]
+        protected void Setup()
         {
             Fixture = new UnitTestFixture();
         }
